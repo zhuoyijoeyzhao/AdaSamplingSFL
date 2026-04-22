@@ -61,13 +61,6 @@ python3 run_streaming_cifar.py --policy optimal --epochs 100 --local_epochs 10
 - Cost budget: 220.0
 - Cost range: [1, 10]
 
-## 🔧 Common Features
-
-- **Fractional Lambda Support**: All policies support fractional admission rates with counter mechanism
-- **K-Step Memory**: Samples are retained for K rounds before eviction
-- **Non-I.I.D. Data**: Adjacent overlapping class pairs for realistic federated scenarios
-- **Heterogeneous Buffers**: Different buffer sizes across clients
-
 ## 📊 Output
 
 Results are saved to:
